@@ -17,8 +17,9 @@ class RectangleTest {
 		assertEquals(16.0, square.perimeter(), 0.001);
 	}
 	
-	@Test
+	@Test 
 	void areaTest() {
+		//Test for area
 		Rectangle rect = new Rectangle(5.0, 3.0);
 		double expected = 15.0;
 		double actual = rect.area();
