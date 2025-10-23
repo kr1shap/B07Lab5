@@ -1,4 +1,4 @@
-package lab4;
+package b07lab5;
 
 public class Circle {
 	Point centre;
@@ -6,15 +6,7 @@ public class Circle {
 	
 	// constructor
 	
-	public Circle(Point centre, double radius) {
-		 if (centre == null) {
-			 throw new IllegalArgumentException("Centre cannot be null");	 
-		 }
-		
-		 if (radius < 0) {
-			 throw new IllegalArgumentException("Radius cannot be negative");
-		 }
-		    
+	public Circle(Point centre, double radius) {   
 		this.centre = centre;
 		this.radius = radius;
 	}
